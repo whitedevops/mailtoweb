@@ -1,6 +1,6 @@
-# Atexit
+# MailToWeb
 
-Package mailtoweb returns the webmail URL related to a an email address.
+MailToWeb returns the webmail URL related to a an email address.
 It can be used in web apps to provide a direct link to the user's webmail from his email address, after a subscription for example.
 
 ## Installation
