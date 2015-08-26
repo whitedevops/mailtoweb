@@ -1,5 +1,6 @@
 // Package mailtoweb returns the webmail URL related to a an email address.
-// It can be used in web apps to provide a direct link to the user's webmail from his email address, after a subscription for example.
+//
+// It can be used in web apps for a better user experience, by providing a direct link to user's webmail from his email address, after a subscription for example.
 package mailtoweb
 
 import "strings"
