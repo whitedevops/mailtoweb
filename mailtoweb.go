@@ -9,9 +9,9 @@ var relations = map[string]string{
 	"@gmail.": "https://mail.google.com/",
 }
 
-// From returns the webmail URL related to the email address.
+// For returns the webmail URL related to the email address.
 // If unknown, result is empty.
-func From(email string) string {
+func For(email string) string {
 	for e, u := range relations {
 		if strings.Contains(email, e) {
 			return u

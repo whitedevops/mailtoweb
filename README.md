@@ -20,6 +20,6 @@ import (
 )
 
 func main() {
-	mailtoweb.Use("user@gmail.com")
+	mailtoweb.For("user@gmail.com")
 }
 ```
